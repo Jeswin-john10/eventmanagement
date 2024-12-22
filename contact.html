@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quintana Events</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <br class="bg-gray-100">
+    <!-- Navbar -->
+  <nav class="fixed top-0 w-full bg-white shadow-md z-50">
+    <div class="container mx-auto flex items-center justify-between p-4">
+      <a href="./index.html"><img src="./unnamed (2).png" alt="Event Aura Logo" class="w-35 h-24"> </a>
+      <label for="sidebar-toggle" class="cursor-pointer z-50">
+        <div class="w-6 h-0.5 bg-gray-700 mb-1"></div>
+        <div class="w-6 h-0.5 bg-gray-700 mb-1"></div>
+        <div class="w-6 h-0.5 bg-gray-700"></div>
+      </label>
+    </div>
+  </nav>
+
+  <!-- Sidebar -->
+  <input type="checkbox" id="sidebar-toggle" class="hidden peer">
+  <div class="fixed top-0 left-0 h-full w-80 bg-white text-white shadow-lg transform -translate-x-full peer-checked:translate-x-0 transition-transform duration-300 z-50">
+    <div class="p-6"><li></li>
+      <li></li>
+      <img src="./unnamed (2).png" alt="Event Aura Logo" class="w-35 h-24">
+      <div class="text-2xl font-bold text-black mb-6">Menu</div>
+      <ul class="space-y-4 text-black">
+        <li><a href="./home.html" class="block hover:text-2xl">Home</a></li>
+                <li><a href="./index.html" class="block hover:text-2xl">About</a></li>
+        <li><a href="#services" class="block hover:text-2xl">Services</a></li>
+        <li><a href="./contact.html" class="block hover:text-2xl">Contact</a></li>
+        <li><a href="./wedding.html" class="block hover:text-2xl">Wedding Planners</a></li>
+        <li><a href="./events.html" class="block hover:text-2xl">Packages</a></li>
+        <li><a href="./corporateevent.html" class="block hover:text-2xl">Corporate Events</a></li>
+        <li><a href="./Design.html" class="block hover:text-2xl">Designers Ideas</a></li>
+        <li><a href="./Testmonials.html" class="block hover:text-2xl">Testimonials</a></li>
+      </ul>
+    </div>
+    
+  </div>
+<br>
+<br>
+<br>
+<br>
+<!-- Contact Us Section -->
+<section class="max-w-7xl mx-auto p-8 md:flex md:space-x-10">
+  <!-- Left Form -->
+  <div class="flex-1">
+      <h2 class="text-3xl font-serif mb-6">CONTACT US</h2>
+      <p class="mb-6 text-gray-500">
+          Fill out the form below and we will be in contact shortly.
+      </p>
+      <form action="#" method="POST" class="space-y-4">
+          <input type="text" name="name" placeholder="Name"
+              class="w-full border border-gray-300 px-4 py-2 focus:outline-none focus:border-gray-600">
+          <input type="email" name="email" placeholder="Email"
+              class="w-full border border-gray-300 px-4 py-2 focus:outline-none focus:border-gray-600">
+          <input type="tel" name="phone" placeholder="Phone"
+              class="w-full border border-gray-300 px-4 py-2 focus:outline-none focus:border-gray-600">
+          <input type="text" name="source" placeholder="How did you hear about us?"
+              class="w-full border border-gray-300 px-4 py-2 focus:outline-none focus:border-gray-600">
+          <textarea name="description" rows="5" placeholder="Describe Your Event"
+              class="w-full border border-gray-300 px-4 py-2 focus:outline-none focus:border-gray-600"></textarea>
+          <button type="submit" class="bg-black text-white px-6 py-2 font-semibold hover:bg-gray-700">
+              SEND
+          </button>
+      </form>
+  </div>
+
+  <!-- Right Content -->
+  <div class="flex-1 mt-8 md:mt-0">
+      <blockquote class="italic text-2xl text-gray-700 mb-6">
+          "ONE OF THE BAY'S PREMIER WEDDING TALENT"
+      </blockquote>
+      <p class="text-gray-500 mb-4">– San Francisco Brides Magazine</p>
+      <p class="text-gray-600 mb-6 leading-relaxed">
+          <em>Full-service event planning & styling throughout the Bay Area, Wine Country and other exclusive
+              destinations.</em>
+      </p>
+      <ul class="space-y-2">
+          <li><strong>Bay Area Office:</strong> 510-367-3125</li>
+          <li><strong>Wine Country Office:</strong> 707-939-5081</li>
+          <li><strong>Lake Tahoe & Greater Sacramento:</strong> 916-272-1174</li>
+          <li><strong>Email:</strong> <a href="mailto:info@quintanaevents.com"
+                  class="text-blue-500 hover:underline">
+                  info@EventAura.com</a></li>
+      </ul>
+
+      <!-- Social Links -->
+      <div class="flex space-x-4 mt-6">
+          <a href="#" class="text-gray-600 hover:text-black"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-gray-600 hover:text-black"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-gray-600 hover:text-black"><i class="fab fa-pinterest-p"></i></a>
+          <a href="#" class="text-gray-600 hover:text-black"><i class="fab fa-instagram"></i></a>
+      </div>
+
+      <p class="text-gray-600 mt-8">
+          <strong>EventAura, LLC</strong> <br>
+          1055 Broadway, E4, <br>
+          Sonoma, CA 95476
+      </p>
+  </div>
+</section>
+</body>
+</html>

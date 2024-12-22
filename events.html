@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quintana Events</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Add a custom font style */
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap');
+     section{
+      font-family: "Quintessential", serif;
+  font-weight: 400;
+  font-style: normal;
+    }
+  
+  </style>
+</head>
+<body class="bg-gray-100">
+
+  <!-- Navbar -->
+  <nav class="fixed top-0 w-full bg-white shadow-md z-50">
+    <div class="container mx-auto flex items-center justify-between p-4">
+      <a href="./index.html"><img src="./unnamed (2).png" alt="Event Aura Logo" class="w-35 h-24"> </a>
+      <label for="sidebar-toggle" class="cursor-pointer z-50">
+        <div class="w-6 h-0.5 bg-gray-700 mb-1"></div>
+        <div class="w-6 h-0.5 bg-gray-700 mb-1"></div>
+        <div class="w-6 h-0.5 bg-gray-700"></div>
+      </label>
+    </div>
+  </nav>
+
+  <!-- Sidebar -->
+  <input type="checkbox" id="sidebar-toggle" class="hidden peer">
+  <div class="fixed top-0 left-0 h-full w-80 bg-white text-white shadow-lg transform -translate-x-full peer-checked:translate-x-0 transition-transform duration-300 z-50">
+    <div class="p-6"><li></li>
+      <li></li>
+      <img src="./unnamed (2).png" alt="Event Aura Logo" class="w-35 h-24">
+      <div class="text-2xl font-bold text-black mb-6">Menu</div>
+      <ul class="space-y-4 text-black">
+        <li><a href="./index.html" class="block hover:text-2xl">Home</a></li>        <li><a href="./about.html" class="block hover:text-2xl">About</a></li>
+        <li><a href="#services" class="block hover:text-2xl">Services</a></li>
+        <li><a href="./contact.html" class="block hover:text-2xl">Contact</a></li>
+        <li><a href="./wedding.html" class="block hover:text-2xl">Wedding Planners</a></li>
+        <li><a href="./events.html" class="block hover:text-2xl">Packages</a></li>
+        <li><a href="./corporateevent.html" class="block hover:text-2xl">Corporate Events</a></li>
+        <li><a href="./Design.html" class="block hover:text-2xl">Designers Ideas</a></li>
+        <li><a href="./Testmonials.html" class="block hover:text-2xl">Testimonials</a></li>
+      </ul>
+    </div>
+    
+  </div>
+      
+          <!-- Hamburger Menu -->
+          <label for="sidebar-toggle" class="cursor-pointer flex flex-col space-y-1 z-50">
+            <span class="block w-6 h-0.5 bg-gray-700"></span>
+            <span class="block w-6 h-0.5 bg-gray-700"></span>
+            <span class="block w-6 h-0.5 bg-gray-700"></span>
+          </label>
+        </div>
+      </nav>
+      
+
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="relative bg-cover bg-center h-screen" style="background-image: url('https://scenarioweddings.com/uploads/homebanner/banner_1497276541.jpg');">
+    <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center">
+      <div class="container mx-auto text-center text-white">
+        <h2 class="text-5xl font-bold mb-4">Your Perfect Event Awaits</h2>
+        <p class="text-lg mb-6">Plan effortlessly and make unforgettable memories with our tools.</p>
+        <a href="#features" class="bg-teal-500 text-white py-3 px-8 rounded-full shadow-md hover:bg-teal-600">Explore Features</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+ 
+
+  <!-- Pre-Wedding-Section -->
+  <section id="events" class="py-20 bg-white"  style="background-image: url('https://scenarioweddings.com/uploads/homebanner/banner_1497276541.jpg');">
+    <div class="container mx-auto">
+      <!-- <h3 class="text-4xl font-bold text-center text-white mb-10">We Plan Your Dreams</h3> -->
+      <h3 class="text-4xl font-bold text-center text-white mb-10">Pre -Wedding Events</h3>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <!-- Event Card -->
+        <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+          <img src="https://www.tasteofhome.com/wp-content/uploads/2023/02/GettyImages-1139705793-e1677084534601.jpg" alt="Event" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h4 class="text-xl font-bold text-blue-500 mb-2">Engagement Party</h4>
+            <p class="text-gray-600 mb-4">Join us for an amazing experience. Details below!</p>
+            <a href="#" class="px-4 py-2 bg-[#e5d8af] text-white rounded shadow hover:bg-[#d4c495] transition">Learn More</a>
+          </div>
+        </div>
+        <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqOKDwRQwRmairsMqiWZziyoasG2mBprf1sQ&s" alt="Event" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h4 class="text-xl font-bold text-blue-500 mb-2">Rehearsal Dinner</h4>
+              <p class="text-gray-600 mb-4">Join us for an amazing experience. Details below!</p>
+              <a href="#" class="px-4 py-2 bg-[#e5d8af] text-white rounded shadow hover:bg-[#d4c495] transition">Learn More</a>
+            </div>
+          </div>
+          <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6j4Shr3eR7Zd8Z3Ogo4YCs8CgKlkHZ312mQ&s" alt="Event" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h4 class="text-xl font-bold text-blue-500 mb-2">Mehendi Ceremony (Indian Wedding)</h4>
+              <p class="text-gray-600 mb-4">Join us for an amazing experience. Details below!</p>
+              <a href="#" class="px-4 py-2 bg-[#e5d8af] text-white rounded shadow hover:bg-[#d4c495] transition">Learn More</a>
+            </div>
+          </div>
+        <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+            <img src="https://www.aurusjewels.com/cdn/shop/articles/Indian_wedding_baraat.jpg?v=1676974447" alt="Event" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h4 class="text-xl font-bold text-blue-500 mb-2">Sangeet Ceremony (Indian Wedding)</h4>
+              <p class="text-gray-600 mb-4">Join us for an amazing experience. Details below!</p>
+              <a href="#" class="px-4 py-2 bg-[#e5d8af] text-white rounded shadow hover:bg-[#d4c495] transition">Learn More</a>
+            </div>
+          </div>
+     
+        <!-- Repeat as Needed -->
+      </div>
+    </div>
+  </section>
+  <!-- Wedding Day Events-->
+  <section id="events" class="py-20 bg-white"   style="background-image: url('https://imgs.search.brave.com/R9a-FEdI8wwKnOvrSjHCGnQuFQpLt94SUkKT6ewZdhE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA0LzAzLzMxLzE1/LzM2MF9GXzQwMzMx/MTU0Nl9nbVJWRDI5/WjkyVmFaNXpUTlJk/eGdvWlp6MWFlU0tm/ei5qcGc'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;">
+    <div class="container mx-auto">
+      <!-- <h3 class="text-4xl font-bold text-center text-white mb-10">We Plan Your Dreams</h3> -->
+      <h3 class="text-4xl font-bold text-center text-gray-500 mb-10">Wedding Day Events</h3>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <!-- Event Card -->
+        <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+          <img src="https://junebugweddings.com/wedding-blog/wp-content/uploads/2020/03/casa-de-campo-destination-wedding-ana-hinojosa-4.jpeg">
+          <div class="p-6">
+            <h4 class="text-xl font-bold text-blue-500 mb-2">Getting Ready</h4>
+            <p class="text-gray-600 mb-4">Join us for an amazing experience. Details below!</p>
+            <a href="#" class="px-4 py-2 bg-[#e5d8af] text-white rounded shadow hover:bg-[#d4c495] transition">Learn More</a>
+          </div>
+        </div>
+        <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+            <img src="https://okcrowe.com/wp-content/uploads/2020/05/should-we-have-a-first-look15.jpg" alt="Event" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h4 class="text-xl font-bold text-blue-500 mb-2">First Look</h4>
+              <p class="text-gray-600 mb-4">Join us for an amazing experience. Details below!</p>
+              <a href="#" class="px-4 py-2 bg-[#e5d8af] text-white rounded shadow hover:bg-[#d4c495] transition">Learn More</a>
+            </div>
+          </div>
+          <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+            <img src="https://www.brides.com/thmb/f8ltwLRyphgatxenmqD2YI7_wdY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__brides__proteus__5ab2c9c9a6a85d2181049044__11-f36091d97f844474a499daff46058019.jpeg" alt="Event" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h4 class="text-xl font-bold text-blue-500 mb-2">Wedding Ceremony</h4>
+              <p class="text-gray-600 mb-4">Join us for an amazing experience. Details below!</p>
+              <a href="#" class="px-4 py-2 bg-[#e5d8af] text-white rounded shadow hover:bg-[#d4c495] transition">Learn More</a>
+            </div>
+          </div>
+        <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI0i5Bf63slgBoz41wZ7G6DlvZMEXcuFvbAGnEnzN8niPbGPZtKTeZWnQ4IUdvrpng578&usqp=CAU" alt="Event" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h4 class="text-xl font-bold text-blue-500 mb-2">Post-Ceremony Rituals</h4>
+              <p class="text-gray-600 mb-4">Join us for an amazing experience. Details below!</p>
+              <a href="#" class="px-4 py-2 bg-[#e5d8af] text-white rounded shadow hover:bg-[#d4c495] transition">Learn More</a>
+            </div>
+          </div>
+     
+        <!-- Repeat as Needed -->
+      </div>
+    </div>
+  </section>
+
+   <!-- Post-Wedding-Section -->
+   <section id="events" class="py-20 bg-white"  style="background-image: url('https://scenarioweddings.com/uploads/homebanner/banner_1497276541.jpg');">
+    <div class="container mx-auto">
+      <!-- <h3 class="text-4xl font-bold text-center text-white mb-10">We Plan Your Dreams</h3> -->
+      <h3 class="text-4xl font-bold text-center text-white mb-10">Post -Wedding Events</h3>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <!-- Event Card -->
+        <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+          <img src="https://www.tasteofhome.com/wp-content/uploads/2023/02/GettyImages-1139705793-e1677084534601.jpg" alt="Event" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h4 class="text-xl font-bold text-blue-500 mb-2">Wedding Reception</h4>
+            <p class="text-gray-600 mb-4">Join us for an amazing experience. Details below!</p>
+            <a href="#" class="px-4 py-2 bg-[#e5d8af] text-white rounded shadow hover:bg-[#d4c495] transition">Learn More</a>
+          </div>
+        </div>
+        <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+            <img src="https://media-api.xogrp.com/images/78ab4e20-c2bf-4860-b67f-bbde93922808~rs_768.h" alt="Event" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h4 class="text-xl font-bold text-blue-500 mb-2">Cake Cutting</h4>
+              <p class="text-gray-600 mb-4">Join us for an amazing experience. Details below!</p>
+              <a href="#" class="px-4 py-2 bg-[#e5d8af] text-white rounded shadow hover:bg-[#d4c495] transition">Learn More</a>
+            </div>
+          </div>
+          <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPZzPLJyd48ZWVkrRGr5vNjR537L7W30R-ow&s" alt="Event" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h4 class="text-xl font-bold text-blue-500 mb-2">Bouquet Toss </h4>
+              <p class="text-gray-600 mb-4">Join us for an amazing experience. Details below!</p>
+              <a href="#" class="px-4 py-2 bg-[#e5d8af] text-white rounded shadow hover:bg-[#d4c495] transition">Learn More</a>
+            </div>
+          </div>
+        <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSePb9tF8hTN68304-O2DLGDLpov-u3r5LZzA&s" alt="Event" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h4 class="text-xl font-bold text-blue-500 mb-2">Send-Off</h4>
+              <p class="text-gray-600 mb-4">Join us for an amazing experience. Details below!</p>
+              <a href="#" class="px-4 py-2 bg-[#e5d8af] text-white rounded shadow hover:bg-[#d4c495] transition">Learn More</a>
+            </div>
+          </div>
+     
+        <!-- Repeat as Needed -->
+      </div>
+    </div>
+  </section>
+  <!-- Contact Section -->
+ 
+  <!-- Footer Section -->
+  <footer class="bg-white-800 text-gray-800 py-8">
+    <!-- Top Section -->
+    <div class="flex justify-between items-center px-6">
+        <h3 class="text-5xl font-bold text-center" >EVENT AURA</h3>
+        <a href="#" class="text-black-400 hover:text-orange-800 text-center"  >Link Back to Top <i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+    <hr class="border-gray-600 my-4">
+
+    <!-- Middle Section -->
+    <div class="flex flex-col md:flex-row justify-between items-center px-6 space-y-6 md:space-y-0" >
+        <!-- Left Text and Icons -->
+        <div class="md:w-1/3">
+            <p class="text-md mb-4">Luxury Panning & Design For the <br> Bold & Eclectic. Based in <br> Northern
+                Virginia, serving <br> couples all over the world. </p>
+            <div class="flex space-x-4 text-center">
+                <i class="fab fa-facebook-f text-xl hover:text-orange-800"></i>
+                <i class="fab fa-twitter text-xl hover:text-orange-800"></i>
+                <i class="fab fa-instagram text-xl hover:text-orange-800"></i>
+                <i class="fab fa-linkedin-in text-xl hover:text-orange-800"></i>
+            </div>
+        </div>
+
+        <!-- Center Logo -->
+        <div class="md:w-1/3 text-center">
+            <img src="./unnamed (2).png" alt="Logo" class="mx-auto w-34 h-28">
+        </div>
+
+        <!-- Right Links -->
+        <div class="md:w-1/3 flex flex-col space-y-2 text-right">
+            <a href="#" class="hover:text-orange-800">HOME</a>
+            <a href="#" class="hover:text-orange-800">ABOUT</a>
+            <a href="#" class="hover:text-orange-800">SERVICES</a>
+            <a href="#" class="hover:text-orange-800">CONTACT</a>
+        </div>
+    </div>
+
+    <!-- Card Images Section -->
+    <div class="flex justify-center flex-wrap gap-4 px-6 py-6">
+        <img src="https://static.showit.co/220/CcjTt3x-TreZIC1SDijKCw/101908/screenshot_2024-01-08_at_9_26_33_am.png"
+            alt="Card 6" class="w-60 h-34 object-cover"> <img
+            src="https://static.showit.co/220/F4tOkMgMT128bxfIWwAs7A/101908/screenshot_2024-01-08_at_9_26_01_am.png"
+            alt="Card 2" class="w-60 h-34 object-cover">
+        <img src="https://static.showit.co/220/58tz70uXTxm0rv06IWzohg/101908/screenshot_2024-01-08_at_9_27_53_am.png"
+            alt="Card 3" class="w-60 h-34 object-cover">
+        <img src="https://static.showit.co/220/4x3JqsM0Qc2KKM2L1xIbgA/101908/screenshot_2024-01-08_at_9_27_01_am.png"
+            alt="Card 4" class="w-60 h-34 object-cover">
+        <img src="https://static.showit.co/220/KGq8h526Tgijn8R8MSyNlA/101908/screenshot_2024-01-08_at_9_26_43_am.png"
+            alt="Card 5" class="w-60 h-34 object-cover">
+
+    </div>
+
+    <hr class="border-gray-600 my-4">
+    <div class="container mx-auto flex flex-col md:flex-row justify-between items-center space-y-2 md:space-y-0">
+        <!-- Text on the left -->
+        <p class="text-sm text-center md:text-left ms-4" >© 2024 EVENT AURA | NORTHFOLK TEMPLATE CUSTOMISED BY <a class="hover:underline" href="">BRANDILNN MICHELLE</a> | IMAGE CREDITS</p>
+
+        <!-- Link on the right -->
+        <a href="https://example.com" class="text-sm text-black-400 hover:text-orange-800 me-5" >
+            LEGAL TERMS
+        </a>
+    </div>
+</footer>
+</body>
+</html>
